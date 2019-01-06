@@ -1,3 +1,5 @@
+package me.artiveloper.learning;
+
 import me.artiveloper.learning.HashTable;
 import org.junit.Test;
 
