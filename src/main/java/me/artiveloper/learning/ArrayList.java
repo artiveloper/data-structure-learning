@@ -38,7 +38,7 @@ public class ArrayList {
         return this.data[i];
     }
 
-    public void remote(int i) throws Exception {
+    public void remove(int i) throws Exception {
         if (i > this.index - 1) {
             throw new Exception("ArrayIndexOutOfBound");
         } else if (i < 0) {

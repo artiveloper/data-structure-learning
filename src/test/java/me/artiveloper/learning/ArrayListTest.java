@@ -21,7 +21,7 @@ public class ArrayListTest {
         arrayList.add("9");
 
         assertThat(arrayList.get(5)).isEqualTo("5");
-        arrayList.remote(5);
+        arrayList.remove(5);
         assertThat(arrayList.get(5)).isEqualTo("6");
     }
 
